@@ -35,4 +35,4 @@ global.appRoot = path.resolve(__dirname)
 app.use(errorHandler);
 
 
-app.listen(APP_PORT ,  ()=> console.log("strat"))
+app.listen(APP_PORT ,  ()=> console.log("start"))
