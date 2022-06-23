@@ -10,6 +10,7 @@ if(!authHeader)
     return next(CustomErrorHandler.unAuthorized())
 }
 
+// split main
 const token =  authHeader.split(' ')[1]
 
 try{
