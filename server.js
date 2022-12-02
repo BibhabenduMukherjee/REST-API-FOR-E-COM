@@ -6,7 +6,7 @@ import mongoose from 'mongoose'
 import path from 'path'
 const app = express();
 
-// for multipart data
+
 
 app.use(express.urlencoded({extended: false}))
 
