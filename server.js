@@ -9,7 +9,7 @@ const app = express();
 // for multipart data
 
 app.use(express.urlencoded({extended: false}))
-// for json data 
+
 
 app.use(express.json())
 
