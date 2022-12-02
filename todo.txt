@@ -14,6 +14,3 @@ after successful submission of the user password and email the user get a access
 protected resources but the problem is the validity of this access_token is low (60s) after 60s the user needs to log in
 again so it is a bad user experians 
 
-so we can do one thing basically server can send a another token refresh token and server only store this refresh token
-to it's database and check this is a valid refresh token or not
-
