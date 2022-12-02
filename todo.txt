@@ -1,16 +1,2 @@
-// 1 / register a user
-2 / login a user
-3 / who iam 
-// refresh tokes
 
-4 / add a new product
-5 / get all product
-6 / get single product
-7/ delete  a user
-
-why refresh token we use
-
-after successful submission of the user password and email the user get a access_token to get the value of some 
-protected resources but the problem is the validity of this access_token is low (60s) after 60s the user needs to log in
-again so it is a bad user experians 
 
