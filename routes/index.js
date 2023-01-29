@@ -4,7 +4,7 @@ import auth from '../middlewares/auth';
 const router  = express.Router();
 
 router.post('/register' , registerController.register) // for handeling a new users login 
-// user register logic
+
 
 
 router.post('/login' , loginController.login) 
