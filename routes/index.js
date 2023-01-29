@@ -7,11 +7,10 @@ router.post('/register' , registerController.register) // for handeling a new us
 // user register logic
 
 
-// for login user
 router.post('/login' , loginController.login) 
 
 
-//  who am i
+
 
 router.get('/me' , auth,userController.me)
 
